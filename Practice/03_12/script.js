@@ -6,3 +6,11 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+import KB from "./KB.js";
+const Keyboard = new KB("Dell", 23, "Blue", true);
+
+console.log("The Keyboard object:", Keyboard);
+
+Keyboard.dpad(false);
+console.log(Keyboard);
